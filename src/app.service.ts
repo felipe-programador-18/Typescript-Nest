@@ -7,6 +7,10 @@ export class AppService {
   }
 
   getOtherThing(): string {
-    return 'other router here now'
+    return 'other router here now';
+  }
+
+  getCounter(): string {
+    return 'just to start to created something to practice on typescript';
   }
 }
